@@ -1,10 +1,11 @@
-baseurl = "/"
-title = "Academic"
-copyright = "&copy; 2016 Your Name"
+baseurl = "http://sfeng77.github.io/"
+title = "Sheng Feng"
+copyright = "&copy; 2017 Sheng Feng"
 theme = "hugo-academic"
-enableEmoji = true
+enableEmoji = false
 footnotereturnlinkcontents = "<sup>^</sup>"
 
+# Make it easy for github pages
 publishDir = "docs"
 
 # Enable comments by entering your Disqus shortname
@@ -21,16 +22,16 @@ defaultContentLanguageInSubdir = false
   hrefTargetBlank = true
 
 [params]
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
-  organization = "Stanford University"
+  name = "Sheng Feng"
+  role = "Ph.D. in Computational Physics"
+  organization = "Louisiana State University"
   organization_url = ""
   avatar = "portrait.jpg"
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "sfeng77@gmail.com"
+  address = ""
+  office_hours = ""
+  phone = ""
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -127,22 +128,24 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:sfeng77@gmail.com"
+
+ [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://www.linkedin.com/in/sheng-feng-b3884353/"
+
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "http://twitter.com/sfeng77"
 
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "http://github.com/sfeng77"
 
 
 # Navigation Links
@@ -158,7 +161,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Publications"
   url = "#publications_selected"
-  weight = 2
+  weight = 4
 
 [[menu.main]]
   name = "Posts"
@@ -168,17 +171,13 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 4
+  weight = 2
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 5
 
 # Taxonomies.
 [taxonomies]
